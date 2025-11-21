@@ -5,6 +5,8 @@ import gsap from 'gsap';
 const Showcase = () => {
     const isTablet = useMediaQuery({ query: '(max-width: 1024px)'});
 
+    // use for showcase the vidoe while reaching showcase section and when end of the component reach
+    // at the top of showcase section , showcase vidoe which is mask with M4 come across and completed 
     useGSAP(() => {
         if(!isTablet) {
             const timeline = gsap.timeline({
