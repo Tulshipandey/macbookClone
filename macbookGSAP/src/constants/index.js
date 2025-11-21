@@ -7,6 +7,8 @@ const navLinks = [
     { label: "AirPods" },
 ];
 
+
+// these are the parts of screen / display of macbook, which i am using to not change these part when color is changing
 const noChangeParts = [
     "Object_84",
     "Object_37",
