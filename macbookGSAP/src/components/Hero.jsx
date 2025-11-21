@@ -2,7 +2,7 @@ import {useEffect, useRef} from "react";
 
 const Hero = () => {
     const videoRef = useRef();
-
+    // can change the video playrate from here
     useEffect(() => {
         if(videoRef.current) videoRef.current.playbackRate = 2;
     }, []);
