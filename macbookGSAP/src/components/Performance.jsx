@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { performanceImages, performanceImgPositions } from "../constants/index.js";
 import {useMediaQuery} from "react-responsive";
 
+// performance
 const Performance = () => {
     const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
     const sectionRef = useRef(null);
